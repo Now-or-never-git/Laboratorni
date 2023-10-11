@@ -1,7 +1,9 @@
-text = input("Введіть текст: ") # Користувач вводить текст
+text = input("Введіть текст: ")  # Користувач вводить текст
 Mtext=set()
+
 for i in text:
- if text.count(i) == 1:
- Mtext.add(i)
+   if text.count(i) == 1:
+     Mtext.add(i)
+
 print("Унікальні символи, які входять в текст лише один раз:")
 print(Mtext)
